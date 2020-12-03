@@ -104,7 +104,7 @@ public class RWayTrie implements Trie {
         Node n;
         String word;
         for (int i = 0; i < AlphabetSize; i++) {
-            chr = Character.toString(i + Integer.parseInt(String.valueOf('a')));
+            chr = Character.toString(i + (int)'a');
             n = currentNode.children[i];
             word = currentWord + chr;
             rightOrder(n, word, maxLength);
