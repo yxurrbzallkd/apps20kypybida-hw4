@@ -1,4 +1,5 @@
 package ua.edu.ucu.queue;
+import java.util.Arrays;
 
 public class ImmutableLinkedList implements ImmutableList {
 	private class Node {
