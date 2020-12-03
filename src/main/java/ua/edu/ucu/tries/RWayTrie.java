@@ -109,9 +109,6 @@ public class RWayTrie implements Trie {
             n = currentNode.children[i];
             word = currentWord + chr;
             rightOrder(n, word, maxLength);
-            if (n != null && n.endOfWord) {
-                queue.enqueue(word);
-            }
         }
     }
 
