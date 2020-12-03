@@ -1,5 +1,5 @@
 package ua.edu.ucu.tries;
-
+import ua.edu.ucu.queue.Queue;
 
 public class RWayTrie implements Trie {
     private static int AlphabetSize = 26; // radix
