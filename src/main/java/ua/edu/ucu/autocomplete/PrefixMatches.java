@@ -1,6 +1,7 @@
 package ua.edu.ucu.autocomplete;
 
 import ua.edu.ucu.tries.Trie;
+import ua.edu.ucu.tries.Tumple;
 /**
  *
  * @author andrii
