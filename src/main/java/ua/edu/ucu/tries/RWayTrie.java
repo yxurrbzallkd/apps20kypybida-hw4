@@ -7,7 +7,7 @@ public class RWayTrie implements Trie {
     private int size;
     private Queue queue;
     public static final double POSITIVE_INFINITY = 1.0 / 0.0;
-    private String[] letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+    private String[] letters = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
 
 	private static class Node {
 		private Node[] children = new Node[AlphabetSize];
